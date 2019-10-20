@@ -1,6 +1,6 @@
 {
     "name": "Bears Extensions",
-    "description" : "Base Level Extension",
+    "description" : "https://www.youtube.com/watch?v=Ipa58NVGs_c&t=0s",
     "version": "1.0",
     "manifest_version": 2,
     "content_scripts": [
@@ -10,10 +10,10 @@
         }
     ],
     "browser_action": {
-        "default_popup": "popup.html",
         "default_title": "Bears"
     },
     "background": {
         "scripts": ["background.js"]
-    }
+    },
+    "permissions": ["tabs"]
 }
